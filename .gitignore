@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+*.pyo
+*.png
+!energetic-normal-mode-analysis/results/
+!energetic-normal-mode-analysis/results/**
+*.json
+*.swp
+*.out
+*.restart
+*.restart.*
+
+# Energetic normal-mode analysis — trajectories stay local; plots live under results/
+energetic-normal-mode-analysis/**/backup/
+energetic-normal-mode-analysis/**/old/
+energetic-normal-mode-analysis/**/minamb/
+energetic-normal-mode-analysis/**/*GPa/
+energetic-normal-mode-analysis/**/AnimationFiles/
+energetic-normal-mode-analysis/**/anime_*.xyz
+energetic-normal-mode-analysis/**/output_*.xyz
+
+cluster.env
+cp2k-stress-pressure-workflows/cluster.env
+
+# CP2K pressure workflows
+cp2k-stress-pressure-workflows/**/*gpa/
+cp2k-stress-pressure-workflows/**/parameter_trend_matrices.txt
+cp2k-stress-pressure-workflows/**/QM_cellopt-*
+
+# WIP — tracked in a separate branch/agent session
+cp2k-stress-pressure-workflows/uniax/deltaPramp/
