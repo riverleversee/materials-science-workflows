@@ -9,12 +9,7 @@ __pycache__/
 *.restart.*
 
 cluster.env
-cp2k-stress-pressure-workflows/cluster.env
 
-# CP2K pressure workflows
-cp2k-stress-pressure-workflows/**/*gpa/
-cp2k-stress-pressure-workflows/**/parameter_trend_matrices.txt
-cp2k-stress-pressure-workflows/**/QM_cellopt-*
-
-# WIP — tracked in a separate branch/agent session
-cp2k-stress-pressure-workflows/uniax/deltaPramp/
+# Not published yet — keep local only
+cp2k-stress-pressure-workflows/
+energetic-normal-mode-analysis/
