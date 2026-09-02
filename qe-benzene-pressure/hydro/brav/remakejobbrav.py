@@ -1,3 +1,9 @@
+"""Chain hydrostatic brav-cell QE jobs from prior pressure-step .out files.
+
+Builds hydro{P}.sh scripts by grafting geometry from
+benzenemesh777press{P}gpa.out into relaxbase.sh. Used for the fixed-ibrav
+hydrostatic ramp.
+"""
 import numpy as np 
 filenamesend=['11','12','13','14','15','16','17','18','19','20','21','22','23','23','25','26','27','28','29']
 

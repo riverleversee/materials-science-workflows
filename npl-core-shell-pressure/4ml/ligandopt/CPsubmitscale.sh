@@ -1,4 +1,9 @@
 #!/bin/bash
+# materials-science-workflows note:
+# Slurm driver for isotropic XY scale + Z stress matching (ligandopt trees).
+# Sets new_scale, runs CP2K CellOpt, reads stress_tensor, adjusts Z scale.
+# Sibling copies under */ligandopt/{p,neg}*per/ are pressure/scale variants.
+# (Git copy only; cluster source tree was not modified.)
 
 #SBATCH --time=20:20:00
 #SBATCH --qos=normal

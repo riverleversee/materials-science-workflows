@@ -1,3 +1,9 @@
+"""Build uniaxial QE job scripts from a hydrostatic result + relax template.
+
+Edits press= and CELL_PARAMETERS / atomic positions for a chosen axis scale
+series (here B-axis factors). Paths assume the original BenzeneFinal layout
+(hydro results next to uniax). Cluster absolute paths are left as-is.
+"""
 import numpy as np
 
 fileendlist=['baxis16radp995.sh','baxis16radp99.sh','baxis16radp98.sh','baxis16radp97.sh','baxis16radp96.sh']

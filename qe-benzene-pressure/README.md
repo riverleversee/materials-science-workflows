@@ -19,3 +19,4 @@ Small showcase of Quantum ESPRESSO benzene hydrostatic / uniaxial / convergence 
 - Typical settings in the example `.in` files: PBE + Grimme-D3, `ecutwfc=80`, `ecutrho=640`, `6×6×6`.
 - Custom `cell_dofree` values used in uniax examples require the patched `cell_base.f90` (see `patches/`).
 - Cluster absolute paths (e.g. `pseudo_dir`) are left as in the source copies.
+- Light header comments were added in this git copy only (`makecopy.py`, remake helpers, `patches/`, `examples/uniax/`). Cluster source under `E:\River\Projects` was not modified.

@@ -1,3 +1,8 @@
+"""Generate ecutwfc convergence SCF scripts from scfbase + benzeneopt.out.
+
+Writes ecut{40,60,80,100}scf.sh. Analogous remakejob.py files live under
+../ecutrho/, ../mesh/, and ../smearing/ for those parameter sweeps.
+"""
 import numpy as np 
 filestartlist=['scfbase.sh']
 

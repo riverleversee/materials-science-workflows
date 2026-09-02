@@ -30,4 +30,7 @@ CP2K workflows for CdSe/CdZnS nanoplatelets under pressure, copied **verbatim** 
 ## Staging notes
 
 - Run outputs (`*.out`, restarts, trajectory POS-xyz) were omitted at copy time.
+- Git-only trim: removed `*.Hessian` and `*.Log` (optimizer/restart junk) from this copy.
 - Older / non-production trees (`*old*`, `GasPressure`, `QEeffmass`, `BULK/Wurtz`) were not copied.
+- Cluster source under `E:\River\Projects` was not modified.
+- A few representative scripts have short header comments in this git copy only.

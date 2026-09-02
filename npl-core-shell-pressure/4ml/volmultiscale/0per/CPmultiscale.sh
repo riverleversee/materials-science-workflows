@@ -1,4 +1,9 @@
 #!/bin/bash
+# materials-science-workflows note:
+# Slurm driver for core/shell multiscale compression (volmultiscale trees).
+# Scales shell vs core independently (new_scale_shell / new_scale_core), runs
+# JustEng1/2/3 single-points, matches stress. Paper EOS path for NPL platelets.
+# (Git copy only; cluster source tree was not modified.)
 
 #SBATCH --time=22:1:30
 #SBATCH --qos=normal

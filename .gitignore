@@ -32,5 +32,7 @@ energetic-normal-mode-analysis/.pytest_cache/
 npl-core-shell-pressure/**/*.out
 npl-core-shell-pressure/**/*.restart*
 npl-core-shell-pressure/**/QM_*-POS-pos-*.xyz
+npl-core-shell-pressure/**/*.Hessian
+npl-core-shell-pressure/**/*.Log
 qe-benzene-pressure/**/*.out
 qe-benzene-pressure/**/*.save/

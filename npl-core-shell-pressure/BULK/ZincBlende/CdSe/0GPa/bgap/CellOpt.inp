@@ -1,3 +1,8 @@
+# materials-science-workflows note:
+# CP2K input from NPL paper production tree (PBE/TZV2P/2400 Ry typical).
+# FreeZhighcost/ligandopt: geometry; volmultiscale JustEng*: energy/stress;
+# BULK/*/bgap: BAND_STRUCTURE for bulk bands / effective-mass analysis.
+# (Git copy only; cluster source tree was not modified.)
 &GLOBAL
   PROJECT QM_cellopt
   RUN_TYPE ENERGY

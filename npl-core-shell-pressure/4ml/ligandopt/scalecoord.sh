@@ -1,4 +1,10 @@
 #!/bin/bash
+# materials-science-workflows note:
+# Post-opt helper: take last frames from QM_cellopt-POS-pos-1.xyz, read
+# optimized_cell.cell (A/B/C), write coordinatesout.xyz and scaled_coordinates.xyz
+# (Cartesian -> fractional). Used after ligandopt / FreeZhighcost CP2K jobs.
+# (Git copy only; cluster source tree was not modified.)
+
 # Find the most recent file starting with the given name
 
 NAME=CellOpt

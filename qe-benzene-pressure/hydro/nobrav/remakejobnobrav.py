@@ -1,3 +1,8 @@
+"""Build ibrav=0 (nobrav) hydrostatic QE scripts from brav hydro .out results.
+
+Takes CELL_PARAMETERS / positions from brav hydro{P}.out and writes
+hydronobrav{P}.sh with matching press= for free-cell hydrostatic checks.
+"""
 import numpy as np 
 filestartlist=['relaxbase.sh']
 

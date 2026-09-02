@@ -1,3 +1,9 @@
+"""Generate convergence-test QE scripts from scfbase + an optimized geometry.
+
+Copies ATOMIC_POSITIONS / CELL from benzeneopt.out into new smearing (or
+other) job scripts listed in fileendlist. Sibling remakejob.py files under
+ecut/, ecutrho/, mesh/, smearing/ do the same for those sweeps.
+"""
 import numpy as np 
 filestartlist=['scfbase.sh']
 
