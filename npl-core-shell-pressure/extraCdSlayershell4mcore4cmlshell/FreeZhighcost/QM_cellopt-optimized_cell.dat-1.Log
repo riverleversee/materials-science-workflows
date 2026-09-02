@@ -1,0 +1,5 @@
+
+ CELL_OPT| Pressure tolerance [bar]:                                        10.0
+ CELL_OPT| Keep angles between the cell vectors:                             YES
+ CELL_OPT| Keep cell symmetry:                                               YES
+ CELL_OPT| Constraint:                                                      NONE

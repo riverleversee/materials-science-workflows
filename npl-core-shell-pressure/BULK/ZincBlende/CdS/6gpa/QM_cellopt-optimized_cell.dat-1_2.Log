@@ -1,0 +1,30 @@
+
+ CELL| Volume [angstrom^3]:                                           190.879067
+ CELL| Vector a [angstrom]:       5.758     0.000     0.000   |a| =     5.757749
+ CELL| Vector b [angstrom]:       0.000     5.758     0.000   |b| =     5.757749
+ CELL| Vector c [angstrom]:       0.000     0.000     5.758   |c| =     5.757750
+ CELL| Angle (b,c), alpha [degree]:                                    89.999392
+ CELL| Angle (a,c), beta  [degree]:                                    89.999354
+ CELL| Angle (a,b), gamma [degree]:                                    89.999299
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                           191.140228
+ CELL| Vector a [angstrom]:       5.760     0.000     0.000   |a| =     5.760374
+ CELL| Vector b [angstrom]:       0.000     5.760     0.000   |b| =     5.760374
+ CELL| Vector c [angstrom]:       0.000     0.000     5.760   |c| =     5.760374
+ CELL| Angle (b,c), alpha [degree]:                                    89.999301
+ CELL| Angle (a,c), beta  [degree]:                                    89.999399
+ CELL| Angle (a,b), gamma [degree]:                                    89.999486
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                           191.140228
+ CELL| Vector a [angstrom]:       5.760     0.000     0.000   |a| =     5.760374
+ CELL| Vector b [angstrom]:       0.000     5.760     0.000   |b| =     5.760374
+ CELL| Vector c [angstrom]:       0.000     0.000     5.760   |c| =     5.760374
+ CELL| Angle (b,c), alpha [degree]:                                    89.999301
+ CELL| Angle (a,c), beta  [degree]:                                    89.999399
+ CELL| Angle (a,b), gamma [degree]:                                    89.999486
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ

@@ -1,0 +1,11 @@
+
+ CELL| Volume [angstrom^3]:                                          2162.785900
+ CELL| Vector a [angstrom]:       4.159     0.000     0.000   |a| =     4.159088
+ CELL| Vector b [angstrom]:       0.000     4.159     0.000   |b| =     4.159088
+ CELL| Vector c [angstrom]:       0.000     0.000   125.031   |c| =   125.030875
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ

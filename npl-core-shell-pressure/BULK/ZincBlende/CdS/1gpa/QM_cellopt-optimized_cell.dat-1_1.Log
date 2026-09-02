@@ -1,0 +1,40 @@
+
+ CELL| Volume [angstrom^3]:                                           198.146311
+ CELL| Vector a [angstrom]:       5.830     0.000     0.000   |a| =     5.829912
+ CELL| Vector b [angstrom]:       0.000     5.830     0.000   |b| =     5.829912
+ CELL| Vector c [angstrom]:       0.000     0.000     5.830   |c| =     5.829912
+ CELL| Angle (b,c), alpha [degree]:                                    89.999908
+ CELL| Angle (a,c), beta  [degree]:                                    89.999902
+ CELL| Angle (a,b), gamma [degree]:                                    89.999894
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                           198.673802
+ CELL| Vector a [angstrom]:       5.835     0.000     0.000   |a| =     5.835081
+ CELL| Vector b [angstrom]:       0.000     5.835     0.000   |b| =     5.835081
+ CELL| Vector c [angstrom]:       0.000     0.000     5.835   |c| =     5.835081
+ CELL| Angle (b,c), alpha [degree]:                                    89.999951
+ CELL| Angle (a,c), beta  [degree]:                                    89.999948
+ CELL| Angle (a,b), gamma [degree]:                                    89.999943
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                           205.585994
+ CELL| Vector a [angstrom]:       5.902     0.000     0.000   |a| =     5.901981
+ CELL| Vector b [angstrom]:      -0.000     5.902     0.000   |b| =     5.901981
+ CELL| Vector c [angstrom]:      -0.000    -0.000     5.902   |c| =     5.901981
+ CELL| Angle (b,c), alpha [degree]:                                    90.000029
+ CELL| Angle (a,c), beta  [degree]:                                    90.000037
+ CELL| Angle (a,b), gamma [degree]:                                    90.000044
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                           205.585994
+ CELL| Vector a [angstrom]:       5.902     0.000     0.000   |a| =     5.901981
+ CELL| Vector b [angstrom]:      -0.000     5.902     0.000   |b| =     5.901981
+ CELL| Vector c [angstrom]:      -0.000    -0.000     5.902   |c| =     5.901981
+ CELL| Angle (b,c), alpha [degree]:                                    90.000029
+ CELL| Angle (a,c), beta  [degree]:                                    90.000037
+ CELL| Angle (a,b), gamma [degree]:                                    90.000044
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ

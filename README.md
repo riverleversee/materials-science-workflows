@@ -1,6 +1,6 @@
 # materials-science-workflows
 
-**Status: project in progress (WIP)** — CP2K ΔP uniaxial ramp is under active cluster development on CURC Alpine; energetic NMA scripts are included and usable.
+**Status: project in progress (WIP)** — CP2K ΔP uniaxial ramp is under active cluster development on CURC Alpine; energetic NMA, QE benzene showcase, and NPL CP2K workflows are included.
 
 ## Layout
 
@@ -8,9 +8,11 @@
 |--------|-------------|
 | [`energetic-normal-mode-analysis/`](energetic-normal-mode-analysis/) | BNFF/DNTF normal-mode coupling and functional-group decomposition under pressure |
 | [`cp2k-stress-pressure-workflows/`](cp2k-stress-pressure-workflows/) | CP2K internal DFTB hydrostatic + uniax FD + `scfhel` surrogate + ΔP ramp (`uniax/deltaPramp`) |
+| [`qe-benzene-pressure/`](qe-benzene-pressure/) | Small QE benzene hydro/uniax/conver showcase + modified `cell_base.f90` |
+| [`npl-core-shell-pressure/`](npl-core-shell-pressure/) | CP2K CdSe/CdZnS nanoplatelet pressure workflows (JACS paper production tree + ZB bulk bands); **WIP archive** |
 | [`perovskite-workflows/`](perovskite-workflows/) | Mixed-halide perovskite classical MD + IR scripting (**heavily redacted** subset) |
 
-A standalone public copy of the NMA tree may still exist at [energetic-normal-mode-analysis](https://github.com/riverleversee/energetic-normal-mode-analysis); **this monorepo is the working home**.
+A standalone copy of the NMA tree may still exist at [energetic-normal-mode-analysis](https://github.com/riverleversee/energetic-normal-mode-analysis); **this monorepo is the working home**.
 
 ## CP2K ΔP ramp (current focus)
 

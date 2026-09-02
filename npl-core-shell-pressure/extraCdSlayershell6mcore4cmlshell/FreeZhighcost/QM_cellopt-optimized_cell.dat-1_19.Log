@@ -1,0 +1,55 @@
+
+ CELL| Volume [angstrom^3]:                                          2176.783804
+ CELL| Vector a [angstrom]:       4.173     0.000     0.000   |a| =     4.172786
+ CELL| Vector b [angstrom]:       0.000     4.173     0.000   |b| =     4.172786
+ CELL| Vector c [angstrom]:       0.000     0.000   125.015   |c| =   125.015286
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                          2164.710460
+ CELL| Vector a [angstrom]:       4.161     0.000     0.000   |a| =     4.161384
+ CELL| Vector b [angstrom]:       0.000     4.161     0.000   |b| =     4.161384
+ CELL| Vector c [angstrom]:       0.000     0.000   125.004   |c| =   125.004069
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                          2163.153060
+ CELL| Vector a [angstrom]:       4.160     0.000     0.000   |a| =     4.159935
+ CELL| Vector b [angstrom]:       0.000     4.160     0.000   |b| =     4.159935
+ CELL| Vector c [angstrom]:       0.000     0.000   125.001   |c| =   125.001188
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                          2162.773224
+ CELL| Vector a [angstrom]:       4.159     0.000     0.000   |a| =     4.159049
+ CELL| Vector b [angstrom]:       0.000     4.159     0.000   |b| =     4.159049
+ CELL| Vector c [angstrom]:       0.000     0.000   125.032   |c| =   125.032498
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                          2162.397671
+ CELL| Vector a [angstrom]:       4.159     0.000     0.000   |a| =     4.159232
+ CELL| Vector b [angstrom]:       0.000     4.159     0.000   |b| =     4.159232
+ CELL| Vector c [angstrom]:       0.000     0.000   125.000   |c| =   124.999809
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ

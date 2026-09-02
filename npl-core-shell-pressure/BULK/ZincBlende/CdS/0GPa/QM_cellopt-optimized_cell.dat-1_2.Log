@@ -1,0 +1,10 @@
+
+ CELL| Volume [angstrom^3]:                                           207.741369
+ CELL| Vector a [angstrom]:       5.923     0.000     0.000   |a| =     5.922535
+ CELL| Vector b [angstrom]:       0.000     5.923     0.000   |b| =     5.922535
+ CELL| Vector c [angstrom]:       0.000     0.000     5.923   |c| =     5.922535
+ CELL| Angle (b,c), alpha [degree]:                                    89.999382
+ CELL| Angle (a,c), beta  [degree]:                                    89.999345
+ CELL| Angle (a,b), gamma [degree]:                                    89.999289
+ CELL| Numerically orthorhombic:                                              NO
+ CELL| Periodicity                                                           XYZ

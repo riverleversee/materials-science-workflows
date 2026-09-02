@@ -27,3 +27,10 @@ energetic-normal-mode-analysis/**/old/
 energetic-normal-mode-analysis/**/minamb/
 energetic-normal-mode-analysis/**/*GPa/
 energetic-normal-mode-analysis/.pytest_cache/
+
+# NPL / QE staged trees: keep run debris out if reintroduced
+npl-core-shell-pressure/**/*.out
+npl-core-shell-pressure/**/*.restart*
+npl-core-shell-pressure/**/QM_*-POS-pos-*.xyz
+qe-benzene-pressure/**/*.out
+qe-benzene-pressure/**/*.save/

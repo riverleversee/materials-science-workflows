@@ -1,0 +1,44 @@
+
+ CELL| Volume [angstrom^3]:                                          2175.349896
+ CELL| Vector a [angstrom]:       4.171     0.000     0.000   |a| =     4.170504
+ CELL| Vector b [angstrom]:       0.000     4.171     0.000   |b| =     4.170504
+ CELL| Vector c [angstrom]:       0.000     0.000   125.070   |c| =   125.069688
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                          2163.959678
+ CELL| Vector a [angstrom]:       4.160     0.000     0.000   |a| =     4.160431
+ CELL| Vector b [angstrom]:       0.000     4.160     0.000   |b| =     4.160431
+ CELL| Vector c [angstrom]:       0.000     0.000   125.018   |c| =   125.017980
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                          2163.088826
+ CELL| Vector a [angstrom]:       4.160     0.000     0.000   |a| =     4.159780
+ CELL| Vector b [angstrom]:       0.000     4.160     0.000   |b| =     4.159780
+ CELL| Vector c [angstrom]:       0.000     0.000   125.007   |c| =   125.006820
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
+
+ CELL| Volume [angstrom^3]:                                          2162.796739
+ CELL| Vector a [angstrom]:       4.159     0.000     0.000   |a| =     4.159179
+ CELL| Vector b [angstrom]:       0.000     4.159     0.000   |b| =     4.159179
+ CELL| Vector c [angstrom]:       0.000     0.000   125.026   |c| =   125.026040
+ CELL| Angle (b,c), alpha [degree]:                                    90.000000
+ CELL| Angle (a,c), beta  [degree]:                                    90.000000
+ CELL| Angle (a,b), gamma [degree]:                                    90.000000
+ CELL| Requested initial symmetry:                                 TETRAGONAL_AB
+ CELL| Numerically orthorhombic:                                             YES
+ CELL| Periodicity                                                           XYZ
