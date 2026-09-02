@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.png
+!results/
+!results/**
+*.json
+*.swp
+*.out
+*.restart
+*.restart.*
+
+# Trajectories stay local; plots live under results/
+**/backup/
+**/old/
+**/minamb/
+**/*GPa/
+**/AnimationFiles/
+**/anime_*.xyz
+**/output_*.xyz

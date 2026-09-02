@@ -1,18 +1,15 @@
 __pycache__/
 *.pyc
 *.pyo
-*.png
 *.swp
 *.out
 *.restart
 *.restart.*
+.pytest_cache/
 
 # Secrets / site-local env
 cluster.env
 **/cluster.env
-
-# Local sibling trees (published elsewhere or not tracked here)
-energetic-normal-mode-analysis/
 
 # CP2K run outputs / cluster-generated paths (regenerate on Alpine)
 cp2k-stress-pressure-workflows/**/pIso_*/
@@ -20,3 +17,13 @@ cp2k-stress-pressure-workflows/uniax/deltaPramp/axes/
 cp2k-stress-pressure-workflows/uniax/deltaPramp/axes_manifest.json
 cp2k-stress-pressure-workflows/scfhel/minima_scale_*.json
 cp2k-stress-pressure-workflows/**/*.log
+
+# Energetic NMA: keep trajectories / pressure run trees local
+energetic-normal-mode-analysis/**/AnimationFiles/
+energetic-normal-mode-analysis/**/anime_*.xyz
+energetic-normal-mode-analysis/**/output_*.xyz
+energetic-normal-mode-analysis/**/backup/
+energetic-normal-mode-analysis/**/old/
+energetic-normal-mode-analysis/**/minamb/
+energetic-normal-mode-analysis/**/*GPa/
+energetic-normal-mode-analysis/.pytest_cache/
