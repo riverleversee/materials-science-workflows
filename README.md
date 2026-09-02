@@ -8,6 +8,7 @@
 |--------|-------------|
 | [`energetic-normal-mode-analysis/`](energetic-normal-mode-analysis/) | BNFF/DNTF normal-mode coupling and functional-group decomposition under pressure |
 | [`cp2k-stress-pressure-workflows/`](cp2k-stress-pressure-workflows/) | CP2K internal DFTB hydrostatic + uniax FD + `scfhel` surrogate + ΔP ramp (`uniax/deltaPramp`) |
+| [`perovskite-workflows/`](perovskite-workflows/) | Mixed-halide perovskite classical MD + IR scripting (**heavily redacted** subset) |
 
 A standalone public copy of the NMA tree may still exist at [energetic-normal-mode-analysis](https://github.com/riverleversee/energetic-normal-mode-analysis); **this monorepo is the working home**.
 
