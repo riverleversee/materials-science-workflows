@@ -1,0 +1,2 @@
+# CP2K BAND_STRUCTURE dumps, not W3C Bikeshed markup
+*.bs linguist-detectable=false
