@@ -1,6 +1,8 @@
-# Materials Science Workflows
+# Materials Science Workflows (private)
 
-Non-perovskite computational materials workflows: **pressure-dependent normal-mode analysis** on energetic crystals and **CP2K-based stress optimization** (hydrostatic → anisotropic → surrogate search).
+**CP2K stress/pressure workflows** — hydrostatic ramp, uniaxial FD parameterization, and scfhel surrogate search.
+
+> **Note:** Energetic normal-mode analysis lives in the public repo [energetic-normal-mode-analysis](https://github.com/riverleversee/energetic-normal-mode-analysis). This private repo holds CP2K tooling until it is ready to publish.
 
 Perovskite and standalone DFTB+ benzene tracks are intentionally excluded.
 
@@ -8,10 +10,9 @@ Perovskite and standalone DFTB+ benzene tracks are intentionally excluded.
 
 | Folder | Description |
 |--------|-------------|
-| [`energetic-normal-mode-analysis/`](energetic-normal-mode-analysis/) | BNFF/DNTF normal-mode coupling and functional-group decomposition |
 | [`cp2k-stress-pressure-workflows/`](cp2k-stress-pressure-workflows/) | CP2K internal DFTB: hydrostatic ramp, Apptainer uniax FD, scfhel surrogate search |
 
-## First-time cluster setup (CP2K stack)
+## First-time cluster setup
 
 ```bash
 cd cp2k-stress-pressure-workflows
@@ -31,16 +32,13 @@ cp2k/initopt → cp2k/hydroopt (1–40 GPa)
     → scfhel/ (surrogate optimizer on parameter_trend_matrices.txt)
 ```
 
-## Requirements (summary)
+## Requirements
 
-| Component | Needs |
-|-----------|--------|
-| Normal-mode analysis | Python 3.10+, `numpy`, `matplotlib`; **plots in `results/minpress/`**; trajectories local-only to rerun |
-| CP2K workflows | CP2K (module or Apptainer), Python 3.10+, `numpy`, Slurm on HPC |
+CP2K (module or Apptainer), Python 3.10+, `numpy`, Slurm on HPC.
 
 ## Not in git
 
-Mode animation trajectories (`anime_*.xyz`), per-pressure CP2K run trees, restart/output files, SKF parameter files, and full `parameter_trend_matrices.txt` logs. Energetic NMA **result figures** are under `energetic-normal-mode-analysis/results/minpress/`.
+Per-pressure CP2K run trees, restart/output files, SKF parameter files, and full `parameter_trend_matrices.txt` logs. `uniax/deltaPramp/` is WIP and gitignored.
 
 ## Provenance
 
