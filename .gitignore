@@ -2,14 +2,21 @@ __pycache__/
 *.pyc
 *.pyo
 *.png
-*.json
 *.swp
 *.out
 *.restart
 *.restart.*
 
+# Secrets / site-local env
 cluster.env
+**/cluster.env
 
-# Not published yet — keep local only
-cp2k-stress-pressure-workflows/
+# Local sibling trees (published elsewhere or not tracked here)
 energetic-normal-mode-analysis/
+
+# CP2K run outputs / cluster-generated paths (regenerate on Alpine)
+cp2k-stress-pressure-workflows/**/pIso_*/
+cp2k-stress-pressure-workflows/uniax/deltaPramp/axes/
+cp2k-stress-pressure-workflows/uniax/deltaPramp/axes_manifest.json
+cp2k-stress-pressure-workflows/scfhel/minima_scale_*.json
+cp2k-stress-pressure-workflows/**/*.log
